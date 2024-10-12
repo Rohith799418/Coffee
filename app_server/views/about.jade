@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title About Us - Coffee Recipe Site
+    link(rel='stylesheet', href='/stylesheets/navbar.css')
+    link(rel='stylesheet', href='/stylesheets/about.css')
+
+  body
+    include layout.jade
+
+    //- Header
+    header
+      h1 About Us
+
+    //- Main content split into two sections (left and right)
+    .main-container
+      .left-column
+        section.about-intro
+          h2 Welcome to Our Coffee Recipe Site!
+          br
+          p Our website is dedicated to coffee enthusiasts who want to explore the delightful world of coffee recipes. 
+          br
+          p From classic espressos to innovative vegan options, we aim to provide something for every taste.
+        
+        section.mission
+          h2 Our Mission
+          br
+          p At Coffee Recipe Site, our mission is to share our love for coffee by providing easy-to-follow recipes, tips, and resources.
+          br
+          p We believe that coffee brings people together, and we want to inspire you to create delicious coffee drinks at home.
+
+      .right-column
+        section.video
+          h2 Watch Our Journey
+          br
+          p Join us as we explore different coffee recipes and techniques.
+          br
+          video(controls, width="100%", height="auto")
+            source(src="/videos/video1.mp4", type="video/mp4")
+            | Your browser does not support the video tag.
+
+    //- Full-width gallery at the bottom
+    section.gallery
+      h2 Our Coffee Creations
+      br
+      .image-gallery
+        img.gallery-image(src='/images/coffee1.jpg', alt='Coffee Drink 1')
+        img.gallery-image(src='/images/coffee2.jpg', alt='Coffee Drink 2')
+        img.gallery-image(src='/images/coffee3.jpg', alt='Coffee Drink 3')
+
+    //- Footer
+    footer.footer
+      p Discover more coffee recipes on our website.
+      p &copy; 2024 Mocha Delight Site. All Rights Reserved.

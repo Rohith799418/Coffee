@@ -1,0 +1,72 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/navbar.css') 
+  link(rel="stylesheet", href="/stylesheets/recipe.css")
+  h1 Mocha Recipes
+  p.intro Discover our delicious mocha recipes that you can make at home!
+
+  // Recipe Grid
+  .recipe-grid
+    // Example recipe 1
+    .recipe
+      h2 Classic Mocha
+      a(href='/recipes/classic-mocha')
+        img(src='/images/recipe1.png', alt='Classic Mocha', class='recipe-image')
+      h6 This classic mocha recipe combines rich chocolate with freshly brewed espresso for a comforting drink.
+      p Ingredients:
+        ul
+          li 1 cup of brewed espresso
+          li 1 cup of milk
+          li 2 tablespoons of cocoa powder
+          li 2 tablespoons of sugar (or to taste)
+          li Whipped cream (optional)
+      p Instructions:
+        ol
+          li Brew espresso and set aside.
+          li In a saucepan, heat milk and cocoa powder until warm and mixed.
+          li Add sugar and stir until dissolved.
+          li Pour espresso into a mug, top with the chocolate milk, and finish with whipped cream if desired.
+
+    // Example recipe 2
+    .recipe
+      h2 Mocha Frappé
+      a(href='/recipes/mocha-frappe')
+        img(src='/images/recipe2.png', alt='Mocha Frappé', class='recipe-image')
+      p Cool down with this refreshing mocha frappé, perfect for warm days.
+      p Ingredients:
+        ul
+          li 1 cup of brewed espresso (chilled)
+          li 1 cup of milk
+          li 2 tablespoons of chocolate syrup
+          li 1 cup of ice
+          li Whipped cream (optional)
+      p Instructions:
+        ol
+          li In a blender, combine chilled espresso, milk, chocolate syrup, and ice.
+          li Blend until smooth and frothy.
+          li Serve in a tall glass and top with whipped cream if desired.
+
+    // Example recipe 3
+    .recipe
+      h2 Vegan Mocha
+      a(href='/recipes/vegan-mocha')
+        img(src='/images/recipe3.png', alt='Vegan Mocha', class='recipe-image')
+      p Enjoy a rich and creamy vegan mocha that’s both delicious and dairy-free.
+      p Ingredients:
+        ul
+          li 1 cup of brewed espresso
+          li 1 cup of almond milk (or other plant-based milk)
+          li 2 tablespoons of cocoa powder
+          li 2 tablespoons of maple syrup
+      p Instructions:
+        ol
+          li Brew espresso and set aside.
+          li In a saucepan, heat almond milk and cocoa powder until warm and mixed.
+          li Stir in maple syrup and combine well.
+          li Pour espresso into a mug, add the almond milk mixture, and enjoy.
+
+    // Add more recipes similarly
+
+  // Enlarged paragraph after the recipes
+  p.learn-more Want to learn more? Check out our other recipes or visit our shop for ingredients!

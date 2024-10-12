@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f0e9; /* Light cream background */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4b3c2a; /* Dark brown color for the heading */
+  text-align: center; /* Center the heading */
+  margin-top: 20px; /* Add some space at the top */
+}
+
+form {
+  background: #e8d8c2; /* Light brown background for the form */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limit the width of the form */
+  margin: 50px auto; /* Center the form with margin at the top */
+}
+
+div {
+  margin-bottom: 20px; /* Increased space between input fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4b3c2a; /* Dark brown color for labels */
+  font-size: 18px; /* Slightly larger font for better readability */
+}
+
+input {
+  width: 100%;
+  padding: 10px; /* Increased padding for input fields */
+  box-sizing: border-box;
+  border: 1px solid #c8b39d; /* Light brown border */
+  border-radius: 4px;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+input:focus {
+  border-color: #7a5e4a; /* Darker brown on focus */
+  outline: none; /* Remove outline for a cleaner look */
+}
+
+button {
+  padding: 12px; /* Increased padding for the button */
+  background-color: #7a5e4a; /* Medium brown background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size for the button */
+  transition: background-color 0.3s;
+  display: block; /* Make button a block element */
+  width: 100%; /* Full width button */
+}
+
+button:hover {
+  background-color: #5c4635; /* Darker brown on hover */
+}
+
+p {
+  text-align: center;
+  color: #4b3c2a; /* Dark brown for paragraph text */
+  margin-top: 20px; /* Space above paragraph */
+}
+

@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  /* Ensure content is centered vertically */
+  align-items: center;
+  /* Ensure content is centered horizontally */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+}
+
+/* Center the h1 title */
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  margin: 20px 0;
+  color: #6f4c3e;
+}
+
+/* Flexbox container for the content */
+.content {
+  display: flex;
+  justify-content: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+  padding: 20px;
+  flex-direction: column;
+  /* Stack items vertically */
+  text-align: center;
+  max-width: 800px;
+  /* Optional: Set a max-width for better readability */
+}
+
+/* Text styles */
+.text {
+  margin: 0 0 20px;
+  /* Add margin between text elements */
+  text-align: center;
+  /* font-size: large; */
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  /* Ensure image is responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  /* Add margin for spacing around the image */
+  display: block;
+  align-self: center;
+  /* Center image in the flex container */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #6f4c3e;
+  padding: 15px;
+  font-size: 1.2em;
+  width: 100vw;
+  /* Ensure the navbar takes full viewport width */
+  position: relative;
+  /* Ensure it remains in normal flow, change to fixed if needed */
+  left: 0;
+  /* Align it to the left edge of the viewport */
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 25px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #5a3d2b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  width: 100%;
+}

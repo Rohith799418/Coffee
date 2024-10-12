@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Mocha Frappe Recipe
+    link(rel='stylesheet', href='/stylesheets/navbar.css') 
+    link(rel="stylesheet", href="/stylesheets/recipe1.css")
+
+  body
+    include layout.jade 
+    header
+      h1 Mocha Frappe
+      
+    section.recipe-preview
+      .recipe-img-container
+        img(src='/images/recipe2.png', alt='Mocha Frappe', class='recipe-image')
+      .recipe-info
+        h2 The Refreshing Coffee & Chocolate Blend
+        p This Mocha Frappe is a delicious blend of coffee and chocolate, perfect for a hot day or an indulgent treat.
+
+    section.recipe-history
+      h2 History of Mocha Frappe
+      p The Mocha Frappe combines the classic flavors of mocha with a refreshing icy twist. Originating from coffee shops around the world, it's a popular choice for coffee lovers looking for a cool and sweet beverage.
+
+    section.recipe-details
+      h2 Ingredients and Instructions
+      .details-container
+        .ingredients
+          h2 Ingredients
+          ul
+            li 1 cup of brewed coffee (chilled)
+            li 1 cup of milk
+            li 3 tablespoons of chocolate syrup
+            li 2 cups of ice
+            li Whipped cream (for topping)
+
+        .instructions
+          h2 Instructions
+          ol
+            li In a blender, combine chilled coffee, milk, chocolate syrup, and ice.
+            li Blend until smooth and frothy.
+            li Pour into a glass and top with whipped cream and extra chocolate syrup if desired.
+
+    footer.footer
+      p Discover more coffee recipes on our website.

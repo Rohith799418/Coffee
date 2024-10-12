@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title Login
+    include layout.jade
+    link(rel='stylesheet', href='/stylesheets/login.css') // Link to your CSS file
+  body
+    h1 Log In
+    form(action='/login', method='POST') // Adjust the action to match your login route
+      div
+        label(for='username') Username:
+        input(type='text', name='username', required)
+      div
+        label(for='password') Password:
+        input(type='password', name='password', required)
+      div
+        button(type='submit') Log In
+    p
+      | Don't have an account? 
+      a(href='/register') Create one here // Link to the registration page
+    footer
+      p &copy; 2024 Your Company Name. All rights reserved.
+      p
+        | Follow us on: 
+        a(href='https://facebook.com') Facebook
+        | , 
+        a(href='https://twitter.com') Twitter

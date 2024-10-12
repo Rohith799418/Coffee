@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f0e9; /* Light cream background */
+    margin: 0;
+    padding: 0px;
+  }
+  
+  h1 {
+    color: #4b3c2a; /* Dark brown color */
+    text-align: center;
+  }
+  
+  form {
+    background: #e8d8c2; /* Light brown background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto; /* Center the form */
+  }
+  
+  div {
+    margin-bottom: 60px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4b3c2a; /* Dark brown */
+    font-size: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c8b39d; /* Lighter brown border */
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    border-color: #7a5e4a; /* Darker brown on focus */
+  }
+  
+  button {
+    display: block; /* Make the button a block element */
+    width: 200px; /* Set a specific width or use max-width for flexibility */
+    margin: 20px auto; /* Center it with auto margins */
+    padding: 12px; /* Adjust padding for the button */
+    background-color: #7a5e4a; /* Medium brown */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em; /* Increase font size for button */
+  }
+  
+  button:hover {
+    background-color: #5c4635; /* Darker brown on hover */
+  }
+  
+  p {
+    text-align: center;
+    color: #4b3c2a; /* Dark brown */
+  }
+  

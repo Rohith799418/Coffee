@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Register
+    //- include layout.jade
+    link(rel='stylesheet', href='/stylesheets/navbar.css') 
+    link(rel='stylesheet', href='/stylesheets/register.css') 
+  body
+    include layout.jade
+    h1 Create an Account
+    form(action='/register', method='POST') 
+      div
+        label(for='username') Username:
+        input(type='text', name='username', required)
+      div
+        label(for='email') Email:
+        input(type='email', name='email', required)
+      div
+        label(for='password') Password:
+        input(type='password', name='password', required)
+      div
+        label(for='confirmPassword') Confirm Password:
+        input(type='password', name='confirmPassword', required)
+      div
+        button(type='submit') Register
+    p
+      | Already have an account? 
+      a(href='/login') Log in here

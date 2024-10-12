@@ -1,0 +1,113 @@
+/* Global Styles */
+body {  
+    font-family: 'Arial', sans-serif;  
+    background-color: #f8f9fa;  
+    color: #343a40;  
+    margin: 0;  
+    padding: 0;  
+    line-height: 1.6;  
+    overflow-x: hidden; /* Prevent horizontal scroll */  
+}
+
+/* Frame Container */  
+.frame-container {  
+    background-color: #ffffff; /* White background for the frame */  
+    border: 1px solid #ddd; /* Light gray border */  
+    border-radius: 10px; /* Rounded corners */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */  
+    max-width: 800px; /* Max width of the frame */  
+    margin: 20px auto; /* Center the frame */  
+    padding: 20px; /* Padding inside the frame */  
+    display: flex; /* Make it a flex container */  
+    flex-direction: column; /* Stack children vertically to use full height */  
+}  
+
+/* Header Styles */  
+header {  
+    background-color: #6f4c3e;  
+    color: white;  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+
+/* Recipe Preview Section */  
+.recipe-preview {  
+    display: flex;  
+    justify-content: center;  
+    align-items: flex-start;  
+    padding: 20px;  
+    margin: 0; /* Remove margin to use space efficiently */  
+}
+
+/* Image Container */  
+.recipe-img-container {  
+    flex: 1 0 300px; /* Allow minimum width for smaller screens */  
+    max-width: 400px; /* Limit the maximum width */  
+}  
+
+/* Recipe Image */  
+.recipe-image {  
+    width: 100%;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}  
+
+/* Recipe Info */  
+.recipe-info {  
+    flex: 2; /* Take more space in the layout */  
+    margin-left: 20px;  
+}  
+
+/* Recipe History and Details */  
+.recipe-history,  
+.recipe-details {  
+    padding: 20px;  
+    margin-bottom: 20px; /* Add some space below sections */  
+}
+
+/* Details Container for Ingredients and Instructions */
+.details-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between the columns */
+    gap: 20px; /* Space between columns */
+}
+
+/* Styles for Ingredients and Instructions */
+.ingredients,
+.instructions {
+    flex: 1; /* Allow both columns to grow equally */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Section Titles */  
+h2 {  
+    color: #6f4c3e;  
+    margin-bottom: 10px;  
+    font-size: 55px;  
+    text-align: center;
+}  
+h6{
+    text-align: center;
+}
+p {  
+    font-size: 30px;  
+}  
+/* Ingredient and Instruction Lists */  
+ul,  
+ol {  
+    padding-left: 20px;  
+    font-size: 20px;  
+}  
+
+/* Footer Styles */  
+.footer {  
+    background-color: #6f4c3e;  
+    color: white;  
+    text-align: center;  
+    padding: 10px;  
+    margin-top: auto; /* Push the footer to the bottom if using flex on the container */  
+}

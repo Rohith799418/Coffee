@@ -1,0 +1,37 @@
+/* Navbar styles */
+.navbar {
+    background-color: #6f4c3e;
+    padding: 15px;
+    font-size: 1.2em;
+    width: 100vw;
+    /* Ensure the navbar takes full viewport width */
+    position: relative;
+    /* Ensure it remains in normal flow, change to fixed if needed */
+    left: 0;
+    /* Align it to the left edge of the viewport */
+  }
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 25px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  

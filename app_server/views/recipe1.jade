@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Classic Mocha Recipe
+    link(rel='stylesheet', href='/stylesheets/navbar.css') 
+    link(rel="stylesheet", href="/stylesheets/recipe1.css")
+  
+  body
+    include layout.jade 
+    header
+      h1 Classic Mocha
+      
+    section.recipe-preview
+      .recipe-img-container
+        img(src='/images/recipe1.png', alt='Classic Mocha', class='recipe-image')
+      .recipe-info
+        h2 The Perfect Blend of Espresso & Chocolate
+        p This classic mocha recipe combines rich chocolate with freshly brewed espresso for a comforting and delicious drink.
+
+    section.recipe-history
+      h2 History of Mocha
+      p The mocha coffee originated from the city of Mocha in Yemen, where coffee beans were first traded. The modern mocha recipe blends espresso and chocolate, which became popular as a sweet variation of the traditional coffee. Today, it's loved globally for its smooth texture and rich taste.
+
+    section.recipe-details
+      h2 Ingredients and Instructions
+      .details-container
+        .ingredients
+          h2 Ingredients
+          ul
+            li 1 cup of brewed espresso
+            li 1 cup of milk
+            li 2 tablespoons of cocoa powder
+            li 2 tablespoons of sugar (or to taste)
+            li Whipped cream (optional)
+
+        .instructions
+          h2 Instructions
+          ol
+            li Brew espresso and set aside.
+            li In a saucepan, heat milk and cocoa powder until warm and mixed.
+            li Add sugar and stir until dissolved.
+            li Pour espresso into a mug, top with the chocolate milk, and finish with whipped cream if desired.
+
+    footer.footer
+      p Discover more coffee recipes on our website.

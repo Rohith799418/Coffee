@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Vegan Mocha Recipe
+    link(rel='stylesheet', href='/stylesheets/navbar.css') 
+    link(rel="stylesheet", href="/stylesheets/recipe1.css")
+
+  body
+    include layout.jade 
+    header
+      h1 Vegan Mocha
+      
+    section.recipe-preview
+      .recipe-img-container
+        img(src='/images/recipe3.png', alt='Vegan Mocha', class='recipe-image')
+      .recipe-info
+        h2 The Delicious Dairy-Free Chocolate & Coffee Drink
+        p This vegan mocha recipe uses plant-based ingredients to create a creamy, chocolatey delight that everyone can enjoy.
+
+    section.recipe-history
+      h2 History of Vegan Mocha
+      p The vegan mocha is a modern twist on the traditional mocha, created to cater to the growing demand for plant-based options. This delicious beverage maintains the rich flavors of coffee and chocolate while being completely dairy-free.
+
+    section.recipe-details
+      h2 Ingredients and Instructions
+      .details-container
+        .ingredients
+          h2 Ingredients
+          ul
+            li 1 cup of brewed espresso (or strong coffee)
+            li 1 cup of almond milk (or any plant-based milk)
+            li 2 tablespoons of cocoa powder
+            li 2 tablespoons of maple syrup (or sweetener of choice)
+            li Dairy-free whipped cream (optional, for topping)
+
+        .instructions
+          h2 Instructions
+          ol
+            li Brew the espresso (or coffee) and set aside.
+            li In a saucepan, heat the almond milk and cocoa powder over medium heat, whisking until well combined.
+            li Stir in maple syrup until dissolved and the mixture is heated through.
+            li Pour the espresso into a mug, top with the chocolate milk, and add whipped cream if desired.
+
+    footer.footer
+      p Discover more coffee recipes on our website.
